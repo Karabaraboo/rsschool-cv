@@ -1,4 +1,4 @@
-# ***Anton Terekhin*** ![](\assets\img\img-cv.jpg)
+# ***Anton Terekhin*** ![](/assets/img/img-cv.jpg)
 
 ## *Contact information*
 
