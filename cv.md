@@ -19,7 +19,6 @@ I like to study new and interesting. Now I want to try something in IT, so I'm o
 
 And in my daily life I am active enough, like any sports (swimming since six years old), inline-skating, kayaking. I like play the guitar and reading artistic literatures. I love my cat. And I love to be out in Nature.
 
-#
 ## *SKILLS*
 
 * Git (GitHub)
@@ -58,7 +57,7 @@ def permutations(s):
     - *experience at:*
         - *probabilty analysis*
         - *statistics*
-        - *system lifetime modelling *
+        - *system lifetime modelling*
         - *coding*
         - *group managment*
     
@@ -85,11 +84,11 @@ def permutations(s):
     - Several intensive courses in Data Sciense
     - rsschool-cv
 
-- **Languages**
+# *Languages*
 
-    - Russian (Native)
-    - English (B2-B3)
-    - Swedish (a few lessons in DuoLingo)
+- Russian (Native)
+- English (B2-B3)
+- Swedish (a few lessons in DuoLingo)
 
 
 
