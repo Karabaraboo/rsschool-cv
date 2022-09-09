@@ -11,13 +11,13 @@ Discord: Anton (@Karabaraboo)
 
 ## *About Myself*
 
-Since my graduating Moscow State Technical University (Bauman MSTU) I have been working in my speciality 'Engineer-Phisicist' at JSC 'NIKIET'. Today I'm an reliability engineer and deal with probability analisys of different technical system of nuclear power plants and related factory and technologies.
+Since my graduating Moscow State Technical University (Bauman MSTU) I have been working in the field of my diploma as an Engineer-Phisicist at JSC 'NIKIET'. I'm currently an reliability engineer and deal with probability analysis of different technical systems of nuclear power plants and related factory and technologies.
 
-In my daily working life I am coding more and more. And as I have a lot of statistics in my job I discovered, that it is very interesting for me. And the decision to find work related to coding and statistics was come to me. I don't know exacty what I want to do more, but I decided to change my life.
+I apply coding more and more in my daily work. I've discovered that it is very interesting for me, as I have a lot of statistics involved in my job. I grew interested in this sphere and now I want to find work related to coding and statistics. I don't know which sphere exactly I will choose for the next step, but I've decided to change my life.
 
-I like to study new and interesting. Now I want to try something in IT, so I'm on this course. I hope that could gain a lot of usefull skills and find new way for my development. I suppose that my diligence and curiosity would help me at this.
+I'm patient and practice-oreinted, I enjoy to study new and interesting topics. Now I want to try something in IT, which led me to this course. I hope I would gain a lot of useful skills and find new ways for my professional development. I suppose that my diligence and curiosity would help me with this aim.
 
-And in my daily life I am active enough, like any sports (swimming since six years old), inline-skating, kayaking. I like play the guitar and reading artistic literatures. I love my cat. And I love to be out in Nature.
+In my daily life I prefer active lifestyle and sports: I've been swimming since six years old, I enjoy inline-skating, kayaking. I like play the guitar and reading. I love my cat. I recharge getting out in nature.
 
 ## *SKILLS*
 
@@ -62,23 +62,23 @@ def permutations(s):
         - *group managment*
     
 ## *Education*
-- __Bauman Moscow State Technical University, Nuclear Reactors and Plants departament__
+- __Bauman Moscow State Technical University, Nuclear Reactors and Plants department__
 
-    - specialist's diploma
+    - Masters Diploma
     - graduated in 2017
     
-- __Bauman Moscow State Technical University, Nuclear Reactors and Plants departament__
+- __Bauman Moscow State Technical University, Nuclear Reactors and Plants department__
 
     - 2017-2022
     - post-graduated student
     - scientific research
-    - uncompleted PhD
-    - *an ability of independent reserching of a complicated scientific problem and various technical tasks was acquired*
+    - PhD in progress
+    - *In this role I have acquired experience in independent reserch on complicated scientific problems and various technical skills*
 
 - __Courses and Projects__
 
     - [Basics of Statistics](https://stepik.org/course/76/syllabus)
-    - [Programming on Python](https://stepik.org/course/67/syllabus)
+    - [Programming Python](https://stepik.org/course/67/syllabus)
     - [Interactive Simulator for SQL](https://stepik.org/course/63054/syllabus) (in progress)
     - CodeWars
     - Several intensive courses in Data Sciense
@@ -88,7 +88,7 @@ def permutations(s):
 
 - Russian (Native)
 - English (B2-B3)
-- Swedish (a few lessons in DuoLingo)
+- Swedish (my hobby on DuoLingo)
 
 
 
