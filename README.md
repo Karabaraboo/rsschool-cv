@@ -1,2 +1,1 @@
-# rsschool-cv
-Repository for a studying of JS with RS School
+https://github.com/Karabaraboo/rsschool-cv/cv
