@@ -4,8 +4,8 @@
 }
 
 * {
-    /*box-sizing: border-box;*/
-    border: 0px solid red;
+    box-sizing: border-box;
+    border: 1px solid red;
     margin: 0px;
     padding: 0px;
 }
@@ -16,4 +16,10 @@ body {
     display: flex;
     flex-direction: column;  /*Main axes - column*/
     justify-content: space-between;  /*Maximus space between elements*/
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+
 }
