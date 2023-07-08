@@ -4,12 +4,14 @@
 }
 
 * {
-    box-sizing: border-box;
-    border: 1px solid red;
-    margin: 0;
+    /*box-sizing: border-box;*/
+    border: 0px solid red;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     font-family: "Bacasime Antique", sans-serif;
+    min-height: 100vh;
 
 }
