@@ -3,6 +3,10 @@
     src: url("assets/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf");
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Bacasime Antique", sans-serif;
 
