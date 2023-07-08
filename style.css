@@ -13,5 +13,7 @@
 body {
     font-family: "Bacasime Antique", sans-serif;
     min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;  /*Main axes - column*/
+    justify-content: space-between;  /*Maximus space between elements*/
 }
