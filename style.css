@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bacasime Antique";
+    src: url("assets/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf");
+}
+
+body {
+    font-family: "Bacasime Antique", sans-serif;
+
+}
