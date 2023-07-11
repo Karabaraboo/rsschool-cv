@@ -36,6 +36,23 @@ body {
     width: 50%;
 }
 
+.section-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-item::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+
+}
+
 .nav-list {
     text-align: right;
     font-size: 16px;
