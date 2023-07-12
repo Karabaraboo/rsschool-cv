@@ -104,10 +104,11 @@ main {
     line-height: 50px;
     text-decoration: none;
     transition: 2s;
+    color: blue;
 }
 
 .nav-link:hover {
-    background-color: green;
+    background-color: red;
     font-size: 20px;
 }
 
