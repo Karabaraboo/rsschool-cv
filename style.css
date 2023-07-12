@@ -59,6 +59,7 @@ main {
 
 .section-profile {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     width: 100%;
     padding: 20px;
