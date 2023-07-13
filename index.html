@@ -64,6 +64,26 @@
             
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
+                <p>
+                    This is Kata 'Permutations' of 4 kyu for Python.
+                    The task is <a class="a-link" href="https://www.codewars.com/kata/5254ca2719453dcc0b00027d/python">here</a>
+                </p>
+                <pre>
+                    <code>
+def permutations(s):
+    per = list()
+
+    if len(s) == 1:
+        return list(s)
+
+    for i in ''.join(set(s)):
+
+        for j in permutations(s.replace(i, '', 1)):
+            per.append(i + j)
+
+    return per
+                </code>
+            </pre>
             </section>
 
             <section class="section" id="courses">

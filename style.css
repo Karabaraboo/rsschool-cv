@@ -110,6 +110,7 @@ main {
 .nav-link:hover {
     background-color: red;
     font-size: 20px;
+    padding: 0 0;
 }
 
 .avatar {
@@ -143,4 +144,19 @@ h1.section-title::after {
     margin: 20px 0;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.a-link:link {
+    text-decoration: none;
+    color: blue;
+    transition: 1s;
+}
+
+.a-link:visited {
+    color: blue;
+}
+
+.a-link:hover {
+    color: black;
+    font-size: 18px;
 }
