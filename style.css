@@ -160,3 +160,7 @@ h1.section-title::after {
     color: black;
     font-size: 18px;
 }
+
+.title {
+    letter-spacing: 2px;
+}
