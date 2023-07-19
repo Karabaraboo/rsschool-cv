@@ -170,3 +170,8 @@ h1.section-title::after {
 .title {
     letter-spacing: 2px;
 }
+
+.included-link {
+    height: 25px;
+    line-height: 25px;
+}
