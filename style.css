@@ -100,11 +100,11 @@ main {
 
 .nav-link:link {
     padding: 0px 10px;  /*Offsets are added to links because it increases space for click*/
-
     text-decoration: none;
     transition: 2s;
     color: blue;
-    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 50%;
 }
 
 .nav-link:visited {
@@ -114,9 +114,9 @@ main {
 .nav-link:hover {
     background-color: red;
     font-size: 20px;
-    padding: 0 0px;
-    margin: 0 5px;
     line-height: 150%;
+    border: 1px solid blue;
+    border-radius: 50%;
 }
 
 .avatar {
