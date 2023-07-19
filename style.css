@@ -175,3 +175,39 @@ h1.section-title::after {
     height: 25px;
     line-height: 25px;
 }
+
+.addiction-list {
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.addiction-list::before {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 7px;
+    border: 6px solid transparent;
+    border-top: 6px solid #ffaa11;
+}
+
+.addiction-item {
+    position: relative;
+    left: 20px;
+    list-style-type: none;
+    margin: 5px 0;
+    width: 95%;
+}
+
+.addiction-item::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ffaa11;
+    border-radius: 50%;
+    background-color: #ffaa11;
+}
