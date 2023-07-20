@@ -211,3 +211,10 @@ h1.section-title::after {
     border-radius: 50%;
     background-color: #ffaa11;
 }
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
