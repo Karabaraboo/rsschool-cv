@@ -218,3 +218,48 @@ h1.section-title::after {
     justify-content: space-between;
     list-style-type: none;
 }
+
+.footer {
+    background-color: #ffaa11;
+    height: 40px;
+}
+
+.footer-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-link:visited {
+    position: relative;
+}
+
+.footer-link:link::after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    bottom: -5px;
+    height: 2px;
+    width: 0px;
+    background-color: white;
+    transition: 2s;
+}
+
+.footer-link:visited::after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    bottom: -5px;
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+
+.footer-link:hover::after {
+    left: 10px;
+    bottom: -5px;
+    height: 2px;
+    width: 85px;
+    background-color: white;
+}
