@@ -2,7 +2,7 @@
 
 ## *Contact information*
 
-*Phone*: +7-977-425-34-50\
+*Phone*: 
 *E-mail*: kingestboy@gmail.com\
 *Telegram*: @Karabaraboo\
 *GitHub*: @Karabaraboo\
