@@ -2,7 +2,7 @@
 
 ## *Contact information*
 
-*Phone*: 
+*Phone*: \
 *E-mail*: kingestboy@gmail.com\
 *Telegram*: @Karabaraboo\
 *GitHub*: @Karabaraboo\
