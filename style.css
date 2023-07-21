@@ -9,7 +9,7 @@ html {
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 0px solid red;
     margin: 0px;
     padding: 0px;
 }
@@ -225,6 +225,13 @@ h1.section-title::after {
     font-size: 20px;
 }
 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-link {
     position: relative;
     text-decoration: none;
@@ -257,11 +264,6 @@ h1.section-title::after {
 
 .rss {
     max-height: 40px;
+    width: 100%;
 }
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
