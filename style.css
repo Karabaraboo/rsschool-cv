@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Bacasime Antique";
+    src: url("assets/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Bacasime Antique", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;  /*Main axes - column*/
+    justify-content: space-between;  /*Maximus space between elements*/
+}
+
+main {
+    background-color: #ffe4c4;
+}
+
+.header {
+    background-color: #ffaa11;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.section-item::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.section-profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+
+.group {
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nav-list {
+    text-align: right;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav-item {
+    display: inline-block;
+
+}
+
+.nav-link:link {
+    padding: 0px 10px;  /*Offsets are added to links because it increases space for click*/
+    text-decoration: none;
+    transition: 2s;
+    color: blue;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.nav-link:visited {
+    color: blue;
+}
+
+.nav-link:hover {
+    background-color: red;
+    font-size: 20px;
+    line-height: 150%;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 150px;
+}
+
+h1.section-title {
+    position: relative;
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+h1.section-title::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    height: 3px;
+    width: 150px;
+    background-color: #ffaa11;
+}
+
+.p-profile {
+    text-align: center;
+}
+
+.profession {
+    margin: 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.a-link:link {
+    text-decoration: none;
+    color: blue;
+    transition: 1s;
+}
+
+.a-link:visited {
+    color: blue;
+}
+
+.a-link:hover {
+    color: black;
+    font-size: 18px;
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+.included-link {
+    height: 25px;
+    line-height: 25px;
+}
+
+.addiction-list {
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.addiction-list::before {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 7px;
+    border: 6px solid transparent;
+    border-top: 6px solid #ffaa11;
+}
+
+.addiction-item {
+    position: relative;
+    left: 20px;
+    list-style-type: none;
+    margin: 5px 0;
+    width: 95%;
+}
+
+.addiction-item::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ffaa11;
+    border-radius: 50%;
+    background-color: #ffaa11;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #ffaa11;
+    height: 40px;
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-link:visited {
+    position: relative;
+}
+
+.footer-link:link::after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    bottom: -5px;
+    height: 2px;
+    width: 0px;
+    background-color: white;
+    transition: 2s;
+}
+
+.footer-link:hover::after {
+    left: 10px;
+    bottom: -5px;
+    height: 2px;
+    width: 85px;
+    background-color: white;
+}
+
+.rss {
+    max-height: 40px;
+    width: 100%;
+}
+
