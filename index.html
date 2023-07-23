@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link with icon of a web-page-->
+    <link rel="icon" href="assets/img/cv-photo.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="avatar" src="assets/img/cv-photo.png" alt="avatar">
+                <div class="div-profile">
+                    <h1 class="section-title">
+                        Anton Terekhin
+                    </h1>
+                    <p class="p-profile">I like interesting stuff, life, cats and activities</p>
+                    <p class="p-profile profession">reliabilty engineer / data scientist</p>
+                </div>
+            </section>
+
+            <section class="section section-summary" id="summary">
+                <h2 class="section-title">
+                    Summary
+                </h2>
+                <p>I am seeking a remote position as a data
+                    scientist or reliability engineer where I could
+                    apply and improve my skills. I'm patient and practice-oreinted, I enjoy
+                    to study new and interesting topics. My education and engineer experience
+                    will help me to cope with different tasks. </p>
+            </section>
+            
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item"><span class="group">Coding:</span> R, SQL, Python 3, JS</li>
+                    <li class="section-item"><span class="group">Program Package:</span>RiskSpectrum, Microsoft Office</li>
+                    <li class="section-item"><span class="group">3D-modeling:</span>SolidWorks, CreoParametric, SketchUp</li>
+                    <li class="section-item"><span class="group">Maths:</span>Mechanic-Statistic Method, MCMC</li>
+                    <li class="section-item"><span class="group">Control Version:</span>Git</li>
+                </ul>
+            </section>
+            
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p class="included-link">
+                    This is Kata 'Permutations' of 4 kyu for Python.
+                    The task is <a class="a-link" href="https://www.codewars.com/kata/5254ca2719453dcc0b00027d/python">here</a>
+                </p>
+                <pre>
+                    <code>
+def permutations(s):
+    per = list()
+
+    if len(s) == 1:
+        return list(s)
+
+    for i in ''.join(set(s)):
+
+        for j in permutations(s.replace(i, '', 1)):
+            per.append(i + j)
+
+    return per
+                </code>
+            </pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item included-link">
+                        <span>Basics of statistic. </span>
+                        <a class="a-link" href="https://stepik.org/course/76/info">Part 1</a>
+                        <span> and </span>
+                        <a class="a-link" href="https://stepik.org/course/524/info">Part 2</a>
+                    </li>
+                    <li class="section-item included-link">
+                        <a class="a-link" href="https://stepik.org/course/512/syllabus">Python: the basics and application</a>
+                    </li>
+                    <li class="section-item included-link">
+                        <a class="a-link" href="https://stepik.org/course/4852/info">Introduction to Data Science and machine learning</a>
+                    </li>
+                    <li class="section-item included-link">
+                        <a class="a-link" href="https://stepik.org/course/63054/info">Interactive simulator of SQL</a>
+                    </li>
+                    <li class="section-item included-link">
+                        <a class="a-link" href="https://stepik.org/course/67/info">Python programming</a>
+                    </li>
+                    <li class="section-item included-link">
+                        <a class="a-link" href="https://stepik.org/course/497/info">The basics of R programming</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <h3 class="title">JSC "NIKIET"</h3>
+                <ul class="section-list">
+                    <li class="section-item">since 2017</li>
+                    <li class="section-item">lead engineer</li>
+                    <li class="addiction-list">experience at:</li>
+                    <ul class="section-list ">
+                        <li class="section-item addiction-item">probability analysis</li>
+                        <li class="section-item addiction-item">statistics</li>
+                        <li class="section-item addiction-item">system lifetime modeling</li>
+                        <li class="section-item addiction-item">coding</li>
+                        <li class="section-item addiction-item">group managing</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <h3 class="title">Bauman Moscow State Technical University</h3>
+                <ul class="section-list">
+                    <li class="section-item">Nuclear Reactors and Plants department</li>
+                    <li class="section-item">Masters diploma (2017)</li>
+                    <li class="section-item">PhD in progress</li>
+                </ul>
+            </section>
+
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="div-contacts">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a href="mailto:kingestboy@gmail.com" class="a-link">E-mail</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://t.me/Karabaraboo" class="a-link">Telegram</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://github.com/Karabaraboo" class="a-link">GitHub</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.linkedin.com/in/antony-terekhin-107b13111" class="a-link">LinkedIn</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://discordapp.com/users/702975463231848558" class="a-link">Discord</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section section-contancts" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item"><span class="group">Russian:</span> Native</li>
+                    <li class="section-item"><span class="group">English:</span> B2</li>
+                    <li class="section-item"><span class="group">Swedish:</span> Novice, hobby</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                "© 2023"
+                <a href="https://github.com/Karabaraboo" class="footer-link">Karabaraboo</a>
+            </div>
+                <a href="https://rs.school/js-stage0/">
+                    <img src="assets/img/rs_school_js.svg" alt="RSSchool" class="rss">
+                </a>
+        </div>
+    </footer>
+</body>
+</html>
